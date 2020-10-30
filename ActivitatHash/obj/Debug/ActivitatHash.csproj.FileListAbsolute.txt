@@ -1,0 +1,7 @@
+G:\Mi unidad\DAM\M9. Progrmacio de serveis i processos\UF1\ActivitatHash\ActivitatHash\ActivitatHash\bin\Debug\ActivitatHash.exe.config
+G:\Mi unidad\DAM\M9. Progrmacio de serveis i processos\UF1\ActivitatHash\ActivitatHash\ActivitatHash\bin\Debug\ActivitatHash.exe
+G:\Mi unidad\DAM\M9. Progrmacio de serveis i processos\UF1\ActivitatHash\ActivitatHash\ActivitatHash\bin\Debug\ActivitatHash.pdb
+G:\Mi unidad\DAM\M9. Progrmacio de serveis i processos\UF1\ActivitatHash\ActivitatHash\ActivitatHash\obj\Debug\ActivitatHash.csprojAssemblyReference.cache
+G:\Mi unidad\DAM\M9. Progrmacio de serveis i processos\UF1\ActivitatHash\ActivitatHash\ActivitatHash\obj\Debug\ActivitatHash.csproj.CoreCompileInputs.cache
+G:\Mi unidad\DAM\M9. Progrmacio de serveis i processos\UF1\ActivitatHash\ActivitatHash\ActivitatHash\obj\Debug\ActivitatHash.exe
+G:\Mi unidad\DAM\M9. Progrmacio de serveis i processos\UF1\ActivitatHash\ActivitatHash\ActivitatHash\obj\Debug\ActivitatHash.pdb
