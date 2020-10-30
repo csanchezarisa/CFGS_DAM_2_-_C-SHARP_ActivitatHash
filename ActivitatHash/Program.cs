@@ -16,7 +16,7 @@ namespace ActivitatHash
 
         // Variable per emmagatzemar el nom del fitxer amb el que es vol treballar amb el hash
         private string nomFitxerSeleccionat = null;
-        // Array amb les extensions acceptades de fitxer, per poder fer la conversió de nom al crear l'arxiu .sh
+        // Array amb les extensions acceptades de fitxer, per poder fer la conversió de nom al crear l'arxiu .sha
         private string[] extensionsAcceptades =
         {
             ".txt",
@@ -132,7 +132,7 @@ namespace ActivitatHash
                 // cal convertir-lo a un string
 
                 String textOut = BitConverter.ToString(hashResult).Replace("-", string.Empty);
-                Console.WriteLine("Hash del text{0}", textIn);
+                Console.WriteLine("Hash del text {0}", textIn);
                 Console.WriteLine(textOut);
                 Console.ReadKey();
 
@@ -300,7 +300,7 @@ namespace ActivitatHash
                 String textOut = BitConverter.ToString(hashResultat).Replace("-", string.Empty);
 
                 // Creació del fitxer amb el resum
-                File.WriteAllText(string.Concat(convertirNom(nomFitxerSeleccionat), ".sh"), textOut);
+                File.WriteAllText(string.Concat(convertirNom(nomFitxerSeleccionat), ".sha"), textOut);
 
                 // Missatge de creació satisfactori
                 Console.WriteLine("S'ha generat el hash del fitxer {0} correctament", nomFitxerSeleccionat);
@@ -333,7 +333,7 @@ namespace ActivitatHash
 
                 // Lectura del contingut dels dos fitxers, hash i originals
                 textFitxer = File.ReadAllText(nomFitxerSeleccionat, System.Text.Encoding.UTF8);
-                hashFitxer = File.ReadAllText(string.Concat(convertirNom(nomFitxerSeleccionat), ".sh"), System.Text.Encoding.UTF8);
+                hashFitxer = File.ReadAllText(string.Concat(convertirNom(nomFitxerSeleccionat), ".sha"), System.Text.Encoding.UTF8);
 
                 // Conversió de l'original a array de bytes
                 byte[] bytesTextFitxer = Encoding.UTF8.GetBytes(textFitxer);
@@ -407,7 +407,7 @@ namespace ActivitatHash
 
             if (nomFitxerSeleccionat != null)
             {
-                string nomFitxerHash = string.Concat(convertirNom(nomFitxerSeleccionat), ".sh");
+                string nomFitxerHash = string.Concat(convertirNom(nomFitxerSeleccionat), ".sha");
 
                 if (File.Exists(nomFitxerHash))
                     existeix = true;
